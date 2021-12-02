@@ -70,12 +70,12 @@ clean: CMakeFiles\BuckConverter.elf.dir\clean
 CMakeFiles\BuckConverter.elf.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuckConverter.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuckConverter.elf.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BuckConverter.elf.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BuckConverter.elf.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target BuckConverter.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target BuckConverter.elf"
 .PHONY : CMakeFiles\BuckConverter.elf.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\BuckConverter.elf.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\BuckConverter.elf.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\BuckConverter.elf.dir\rule

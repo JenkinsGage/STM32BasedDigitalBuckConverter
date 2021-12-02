@@ -68,9 +68,35 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.s
 
+CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
+CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
+	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c
+
+CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.i"
+	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c > CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.i
+
+CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.s"
+	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.s
+
+CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
+CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
+	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c
+
+CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.i"
+	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c > CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.i
+
+CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.s"
+	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.s
+
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.i: cmake_force
@@ -83,7 +109,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.i: cmake_force
@@ -96,7 +122,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.i: cmake_force
@@ -109,7 +135,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.i: cmake_force
@@ -122,7 +148,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -135,7 +161,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.i: cmake_force
@@ -148,7 +174,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -161,7 +187,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.i: cmake_force
@@ -174,7 +200,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.i: cmake_force
@@ -187,7 +213,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -200,7 +226,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.i: cmake_force
@@ -213,7 +239,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj: ..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -226,7 +252,7 @@ CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_
 
 CMakeFiles\BuckConverter.elf.dir\Src\main.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Src\main.c.obj: ..\Src\main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/main.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Src\main.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Src\main.c
 
 CMakeFiles\BuckConverter.elf.dir\Src\main.c.i: cmake_force
@@ -239,7 +265,7 @@ CMakeFiles\BuckConverter.elf.dir\Src\main.c.s: cmake_force
 
 CMakeFiles\BuckConverter.elf.dir\Src\stm32f1xx_hal_msp.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Src\stm32f1xx_hal_msp.c.obj: ..\Src\stm32f1xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/stm32f1xx_hal_msp.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Src\stm32f1xx_hal_msp.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles\BuckConverter.elf.dir\Src\stm32f1xx_hal_msp.c.i: cmake_force
@@ -252,7 +278,7 @@ CMakeFiles\BuckConverter.elf.dir\Src\stm32f1xx_hal_msp.c.s: cmake_force
 
 CMakeFiles\BuckConverter.elf.dir\Src\stm32f1xx_it.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Src\stm32f1xx_it.c.obj: ..\Src\stm32f1xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/stm32f1xx_it.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Src\stm32f1xx_it.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Src\stm32f1xx_it.c
 
 CMakeFiles\BuckConverter.elf.dir\Src\stm32f1xx_it.c.i: cmake_force
@@ -265,7 +291,7 @@ CMakeFiles\BuckConverter.elf.dir\Src\stm32f1xx_it.c.s: cmake_force
 
 CMakeFiles\BuckConverter.elf.dir\Src\syscalls.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Src\syscalls.c.obj: ..\Src\syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/syscalls.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Src\syscalls.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Src\syscalls.c
 
 CMakeFiles\BuckConverter.elf.dir\Src\syscalls.c.i: cmake_force
@@ -278,7 +304,7 @@ CMakeFiles\BuckConverter.elf.dir\Src\syscalls.c.s: cmake_force
 
 CMakeFiles\BuckConverter.elf.dir\Src\sysmem.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Src\sysmem.c.obj: ..\Src\sysmem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/sysmem.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Src\sysmem.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Src\sysmem.c
 
 CMakeFiles\BuckConverter.elf.dir\Src\sysmem.c.i: cmake_force
@@ -291,7 +317,7 @@ CMakeFiles\BuckConverter.elf.dir\Src\sysmem.c.s: cmake_force
 
 CMakeFiles\BuckConverter.elf.dir\Src\system_stm32f1xx.c.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Src\system_stm32f1xx.c.obj: ..\Src\system_stm32f1xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/BuckConverter.elf.dir/Src/system_stm32f1xx.c.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Src\system_stm32f1xx.c.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Src\system_stm32f1xx.c
 
 CMakeFiles\BuckConverter.elf.dir\Src\system_stm32f1xx.c.i: cmake_force
@@ -304,7 +330,7 @@ CMakeFiles\BuckConverter.elf.dir\Src\system_stm32f1xx.c.s: cmake_force
 
 CMakeFiles\BuckConverter.elf.dir\Startup\startup_stm32f103c6tx.s.obj: CMakeFiles\BuckConverter.elf.dir\flags.make
 CMakeFiles\BuckConverter.elf.dir\Startup\startup_stm32f103c6tx.s.obj: ..\Startup\startup_stm32f103c6tx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object CMakeFiles/BuckConverter.elf.dir/Startup/startup_stm32f103c6tx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/BuckConverter.elf.dir/Startup/startup_stm32f103c6tx.s.obj"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\BuckConverter.elf.dir\Startup\startup_stm32f103c6tx.s.obj -c E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\Startup\startup_stm32f103c6tx.s
 
 CMakeFiles\BuckConverter.elf.dir\Startup\startup_stm32f103c6tx.s.i: cmake_force
@@ -318,6 +344,8 @@ CMakeFiles\BuckConverter.elf.dir\Startup\startup_stm32f103c6tx.s.s: cmake_force
 # Object files for target BuckConverter.elf
 BuckConverter_elf_OBJECTS = \
 "CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj" \
+"CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.obj" \
+"CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.obj" \
 "CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj" \
 "CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj" \
 "CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj" \
@@ -342,6 +370,8 @@ BuckConverter_elf_OBJECTS = \
 BuckConverter_elf_EXTERNAL_OBJECTS =
 
 BuckConverter.elf: CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj
+BuckConverter.elf: CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.obj
+BuckConverter.elf: CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.obj
 BuckConverter.elf: CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj
 BuckConverter.elf: CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj
 BuckConverter.elf: CMakeFiles\BuckConverter.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj
@@ -362,7 +392,7 @@ BuckConverter.elf: CMakeFiles\BuckConverter.elf.dir\Src\sysmem.c.obj
 BuckConverter.elf: CMakeFiles\BuckConverter.elf.dir\Src\system_stm32f1xx.c.obj
 BuckConverter.elf: CMakeFiles\BuckConverter.elf.dir\Startup\startup_stm32f103c6tx.s.obj
 BuckConverter.elf: CMakeFiles\BuckConverter.elf.dir\build.make
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable BuckConverter.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable BuckConverter.elf"
 	"E:\Software\GNU ARM\gcc-arm-none-eabi-10.3-2021.07\bin\arm-none-eabi-gcc.exe" -g -Wl,-gc-sections,--print-memory-usage,-Map=E:/Projects/Embed/STM32/STM32BasedDigitalBuckConverter/STM32BasedDigitalBuckConverter/cmake-build-debug/BuckConverter.map -mcpu=cortex-m3 -mthumb -mthumb-interwork -T E:/Projects/Embed/STM32/STM32BasedDigitalBuckConverter/STM32BasedDigitalBuckConverter/STM32F103C6TX_FLASH.ld $(BuckConverter_elf_OBJECTS) $(BuckConverter_elf_EXTERNAL_OBJECTS) -o BuckConverter.elf 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/Projects/Embed/STM32/STM32BasedDigitalBuckConverter/STM32BasedDigitalBuckConverter/cmake-build-debug/BuckConverter.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building E:/Projects/Embed/STM32/STM32BasedDigitalBuckConverter/STM32BasedDigitalBuckConverter/cmake-build-debug/BuckConverter.bin"

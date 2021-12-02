@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "BuckConverter.elf.manifest"
   "BuckConverter.elf.pdb"
   "CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+  "CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj"
+  "CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj"
   "CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
   "CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
   "CMakeFiles/BuckConverter.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"

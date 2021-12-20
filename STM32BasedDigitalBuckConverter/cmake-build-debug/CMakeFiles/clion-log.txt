@@ -1,4 +1,4 @@
-"E:\Software\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" "C:\Users\indie\Desktop\STM32BasedDigitalBuckConverter-main (1)\STM32BasedDigitalBuckConverter-main\STM32BasedDigitalBuckConverter"
+"E:\Software\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" E:\Projects\Embed\STM32\STM32BasedDigitalBuckConverter\STM32BasedDigitalBuckConverter
 -- The C compiler identification is GNU 10.3.1
 -- The CXX compiler identification is GNU 10.3.1
 -- The ASM compiler identification is GNU
@@ -16,4 +16,4 @@
 -- Minimal optimization, debug info included
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/indie/Desktop/STM32BasedDigitalBuckConverter-main (1)/STM32BasedDigitalBuckConverter-main/STM32BasedDigitalBuckConverter/cmake-build-debug
+-- Build files have been written to: E:/Projects/Embed/STM32/STM32BasedDigitalBuckConverter/STM32BasedDigitalBuckConverter/cmake-build-debug

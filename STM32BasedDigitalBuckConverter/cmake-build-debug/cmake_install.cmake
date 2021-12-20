@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/indie/Desktop/STM32BasedDigitalBuckConverter-main (1)/STM32BasedDigitalBuckConverter-main/STM32BasedDigitalBuckConverter
+# Install script for directory: E:/Projects/Embed/STM32/STM32BasedDigitalBuckConverter/STM32BasedDigitalBuckConverter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/indie/Desktop/STM32BasedDigitalBuckConverter-main (1)/STM32BasedDigitalBuckConverter-main/STM32BasedDigitalBuckConverter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Projects/Embed/STM32/STM32BasedDigitalBuckConverter/STM32BasedDigitalBuckConverter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

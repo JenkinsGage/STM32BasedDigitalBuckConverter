@@ -1,21 +1,4 @@
 /* USER CODE BEGIN Header */
-/**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : Main program body
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
-  * All rights reserved.</center></h2>
-  *
-  * This software component is licensed by ST under BSD 3-Clause license,
-  * the "License"; You may not use this file except in compliance with the
-  * License. You may obtain a copy of the License at:
-  *                        opensource.org/licenses/BSD-3-Clause
-  *
-  ******************************************************************************
-  */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -32,7 +15,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-#define TargetVoltage 12.0f
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -47,7 +30,7 @@ TIM_HandleTypeDef htim1;
 TIM_HandleTypeDef htim2;
 
 /* USER CODE BEGIN PV */
-
+float TargetVoltage = 12.0f;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -88,7 +71,7 @@ int main(void)
 
   float Integral = 0;
   float Kp = 5.0f;
-  float Ki = 10.0f;
+  float Ki = 0.1f;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -132,9 +115,9 @@ int main(void)
       SensedVoltage = 40 * (float)ADCVal / 4095;
 
       DeltaVoltage = TargetVoltage - SensedVoltage;
-      Integral += (DeltaVoltage*DeltaTime)/100;
+      Integral += DeltaVoltage*DeltaTime;
 
-      TIM1->CCR1= clamp((uint32_t)(999-(Kp*DeltaVoltage)-(Ki*Integral)), 0, 999);
+      TIM1->CCR1= clamp((uint32_t)(999-Kp*DeltaVoltage-Ki*Integral), 0, 999);
 
     /* USER CODE END WHILE */
 
@@ -252,7 +235,7 @@ static void MX_TIM1_Init(void)
 
   /* USER CODE END TIM1_Init 1 */
   htim1.Instance = TIM1;
-  htim1.Init.Prescaler = 1;
+  htim1.Init.Prescaler = 0;
   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
   htim1.Init.Period = 999;
   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;

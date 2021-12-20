@@ -81,12 +81,14 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
   uint32_t ADCVal;
-  float CurrentVoltage;
+
+  float SensedVoltage;
   float DeltaVoltage;
   uint32_t DeltaTime;
+
   float Integral = 0;
-  uint32_t Kp = 100;
-  uint32_t Ki = 60;
+  float Kp = 5.0f;
+  float Ki = 10.0f;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -116,6 +118,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  TIM1->CCR1 = 999;
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
 
   while (1)
@@ -124,14 +127,14 @@ int main(void)
       HAL_ADC_Start(&hadc1);
       HAL_ADC_PollForConversion(&hadc1, 1);
       DeltaTime = __HAL_TIM_GET_COUNTER(&htim2);
-      ADCVal = HAL_ADC_GetValue(&hadc1);
-      CurrentVoltage = 40 * (float)ADCVal / 4095;
 
-      DeltaVoltage = TargetVoltage - CurrentVoltage;
+      ADCVal = HAL_ADC_GetValue(&hadc1);
+      SensedVoltage = 40 * (float)ADCVal / 4095;
+
+      DeltaVoltage = TargetVoltage - SensedVoltage;
       Integral += (DeltaVoltage*DeltaTime)/100;
 
-      TIM1->CCR1= clamp((uint32_t)(Kp*DeltaVoltage)+(uint32_t)(Ki*Integral), 0, 999);
-
+      TIM1->CCR1= clamp((uint32_t)(999-(Kp*DeltaVoltage)-(Ki*Integral)), 0, 999);
 
     /* USER CODE END WHILE */
 
